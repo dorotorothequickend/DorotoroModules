@@ -70,39 +70,39 @@ class Alphabet(loader.Module):
 		
 		if letter in alwaystverdie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твёрдая\n"
-		elif letter in nevsegdatverd:
+		if letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Твёрдая\n"
 		if letter in neslishu and letter in myagkie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда мягкая\n Глухая\n"
-		elif letter in nevsegdatverd:
+		if letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Твёрдая\n"
 		if letter in zvonk and letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Звонкая\n"
-		elif letter in neslishu and letter in nevsegdatverd:
+		if letter in neslishu and letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Глухая\n"
 		if letter in neslishu and letter in alwaystverdie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Глухая\n"
-		elif letter in zvonk and letter in alwaystverdie:
+		if letter in zvonk and letter in alwaystverdie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n"
 		if letter in neslishu and letter in alwaystverdie and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Глухая\n Парная\n"
-		elif letter in neslishu and letter in nevsegdatverd and letter in parnie:
+		if letter in neslishu and letter in nevsegdatverd and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Глухая\n Парная\n"
 		if letter in neslishu and letter in  alwaystverdie and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Глухая\n Непарная\n"
-		elif letter in neslishu and letter in nevsegdatverd and letter in neparn:
+		if letter in neslishu and letter in nevsegdatverd and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Глухая\n Непарная\n"
 		if letter in zvonk and letter in nevsegdatverd and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Парная\n"
-		elif letter in zvonk and letter in nevsegdatverd and letter in  neparn:
+		if letter in zvonk and letter in nevsegdatverd and letter in  neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Звонкая\n Непарная"
 		if letter in zvonk and letter in alwaystverdie and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n Непарная\n"
-		elif letter in zvonk and letter in alwaystverdie and letter in parnie:
+		if letter in zvonk and letter in alwaystverdie and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n Парная\n"
 		if letter in zvonk and letter in myagkie and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда мягкая\n Звонкая\n Непарная\n\n <b>Всегда мягкие буквы: 'й', 'ч', 'щ'. Буква Й немного баганная, а в других может не быть пункта ПАРНЫЙ/НЕПАРНЫЙ</b>"
-		elif letter in zvonk and letter in  alwaystverdie and letter in parnie:
+		if letter in zvonk and letter in  alwaystverdie and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n Парная\n"
 		await utils.answer(m, text)
 		
