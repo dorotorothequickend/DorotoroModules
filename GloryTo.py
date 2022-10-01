@@ -1,14 +1,4 @@
-# ---------------------------------------------------------------------------------
-#  ,_     _          
-#  |\_,-~/          
-#  / _  _ |    ,--.  馃寪 This module was loaded through https://t.me/hikkamods_bot
-# (  @  @ )   / ,-'  馃攼 Licensed under the CC BY-NC-ND 4.0.
-#  \  _T_/-._( (     
-#  /         `. \    鈿狅笍 Owner of this bot doesn't take responsibility for any
-# |         _  \ |   errors caused by this module or this module being non-working
-#  \ \ ,  /      |   and doesn't take ownership of any copyrighted material.
-#   || |-_\__   /    
-#  ((_/`(____,-'     
+
 # ---------------------------------------------------------------------------------
 # Name: GloryTo
 # Description: Этот модуль - причина всех военных конфликтов!
