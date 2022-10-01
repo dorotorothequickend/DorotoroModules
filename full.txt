@@ -1,6 +1,6 @@
 CringePhrases
 Dota2RandomHero
-CheckSpamBam
+CheckSpamBan
 GloryTo
 InlineTTS
 FoodRecipe
