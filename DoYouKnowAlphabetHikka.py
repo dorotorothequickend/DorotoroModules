@@ -55,7 +55,7 @@ class Alphabet(loader.Module):
 				await utils.answer(m, f"{prefix}Буква <b>{args}</b> - гласная.")
 				return
 		for letter in constant:
-			elif args == letter:
+			if args == letter:
 				await utils.answer(m, f"{prefix}Буква <b>{args}</b> - согласная.")
 	@loader.command()
 	async def letterinfo(self,m):
@@ -117,16 +117,16 @@ class Alphabet(loader.Module):
 		elif letter == "р":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
-		elif letter == "л":
+		if letter == "л":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
-		if letter == "н":
+		elif letter == "н":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
-		elif letter == "й":
+		if letter == "й":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Всегда мягкая"
 			await utils.answer(m, text)
-		if letter == "м":
+		elif letter == "м":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
 			
