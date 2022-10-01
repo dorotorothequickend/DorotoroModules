@@ -109,24 +109,24 @@ class Alphabet(loader.Module):
 		if letter in vowel:
 			text = f"{prefix}Буква <b>{args}</b>:\n Гласная\n"
 			await utils.answer(m, text)
-		elif letter in bublik:
+		if letter in bublik:
 			text = f"{prefix}Буква <b>{args}</b>:\n Звука не обозначает "
 			await utils.answer(m, text)
 		if letter not in args:
 			await utils.answer("<b>Введи букву, чорт.</b>")
-		elif letter == "р":
+		if letter == "р":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
 		if letter == "л":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
-		elif letter == "н":
+		if letter == "н":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
 		if letter == "й":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Всегда мягкая"
 			await utils.answer(m, text)
-		elif letter == "м":
+		if letter == "м":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
 			
