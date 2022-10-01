@@ -40,7 +40,6 @@ prefix = "<b>///Информация о Букве </b>\n"
 class Alphabet(loader.Module):
 	"""Special for Kids."""
 	strings = {"name": "DoYouKnowAlphabet?"}
-	prefix = "<b>///Информация о Букве </b>\n"
 	
 	@loader.command()
 	async def alphabetru(self,m):
@@ -56,7 +55,7 @@ class Alphabet(loader.Module):
 				await utils.answer(m, f"{prefix}Буква <b>{args}</b> - гласная.")
 				return
 		for letter in constant:
-			if args == letter:
+			elif args == letter:
 				await utils.answer(m, f"{prefix}Буква <b>{args}</b> - согласная.")
 	@loader.command()
 	async def letterinfo(self,m):
@@ -71,60 +70,60 @@ class Alphabet(loader.Module):
 		
 		if letter in alwaystverdie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твёрдая\n"
-		if letter in nevsegdatverd:
+		elif letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Твёрдая\n"
 		if letter in neslishu and letter in myagkie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда мягкая\n Глухая\n"
-		if letter in nevsegdatverd:
+		elif letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Твёрдая\n"
 		if letter in zvonk and letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Звонкая\n"
-		if letter in neslishu and letter in nevsegdatverd:
+		elif letter in neslishu and letter in nevsegdatverd:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Глухая\n"
 		if letter in neslishu and letter in alwaystverdie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Глухая\n"
-		if letter in zvonk and letter in alwaystverdie:
+		elif letter in zvonk and letter in alwaystverdie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n"
 		if letter in neslishu and letter in alwaystverdie and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Глухая\n Парная\n"
-		if letter in neslishu and letter in nevsegdatverd and letter in parnie:
+		elif letter in neslishu and letter in nevsegdatverd and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Глухая\n Парная\n"
 		if letter in neslishu and letter in  alwaystverdie and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Глухая\n Непарная\n"
-		if letter in neslishu and letter in nevsegdatverd and letter in neparn:
+		elif letter in neslishu and letter in nevsegdatverd and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Глухая\n Непарная\n"
 		if letter in zvonk and letter in nevsegdatverd and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Парная\n"
-		if letter in zvonk and letter in nevsegdatverd and letter in  neparn:
+		elif letter in zvonk and letter in nevsegdatverd and letter in  neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\nСогласная\n Твердая\n Звонкая\n Непарная"
 		if letter in zvonk and letter in alwaystverdie and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n Непарная\n"
-		if letter in zvonk and letter in alwaystverdie and letter in parnie:
+		elif letter in zvonk and letter in alwaystverdie and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n Парная\n"
 		if letter in zvonk and letter in myagkie and letter in neparn:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда мягкая\n Звонкая\n Непарная\n\n <b>Всегда мягкие буквы: 'й', 'ч', 'щ'. Буква Й немного баганная, а в других может не быть пункта ПАРНЫЙ/НЕПАРНЫЙ</b>"
-		if letter in zvonk and letter in  alwaystverdie and letter in parnie:
+		elif letter in zvonk and letter in  alwaystverdie and letter in parnie:
 			text = f"{prefix}Буква <b>{args}</b>:\n Согласная\n Всегда твëрдая\n Звонкая\n Парная\n"
 		await utils.answer(m, text)
 		
 		if letter in vowel:
 			text = f"{prefix}Буква <b>{args}</b>:\n Гласная\n"
 			await utils.answer(m, text)
-		if letter in bublik:
+		elif letter in bublik:
 			text = f"{prefix}Буква <b>{args}</b>:\n Звука не обозначает "
 			await utils.answer(m, text)
 		if letter not in args:
 			await utils.answer("<b>Введи букву, чорт.</b>")
-		if letter == "р":
+		elif letter == "р":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
-		if letter == "л":
+		elif letter == "л":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
 		if letter == "н":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Твёрдая"
 			await utils.answer(m, text)
-		if letter == "й":
+		elif letter == "й":
 			text =f"{prefix}Буква <b>{args}</b>:\n Согласная\n Сонорная\n Непарная\n Звонкая\n Всегда мягкая"
 			await utils.answer(m, text)
 		if letter == "м":
