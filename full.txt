@@ -6,3 +6,4 @@ InlineTTS
 FoodRecipe
 DoYouKnowAlphabet
 AccountDeleter
+RandomJumoreska
