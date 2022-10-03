@@ -29,6 +29,7 @@ anekdoti = ["— Как называется древнейшее государ
 
 @loader.tds
 class RandomJumoreska(loader.Module):
+    """Отправляет случайную юмореску."""
     strings = {"name": "RandomJumoreska"}
 
     @loader.command()
