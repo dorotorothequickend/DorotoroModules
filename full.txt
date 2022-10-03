@@ -4,4 +4,4 @@ CheckSpamBan
 GloryTo
 InlineTTS
 FoodRecipe
-DoYouKnowAlphabetHikka
+DoYouKnowAlphabet
