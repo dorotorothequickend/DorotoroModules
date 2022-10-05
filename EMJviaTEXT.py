@@ -24,7 +24,7 @@ from .. import loader, utils
 
 @loader.tds
 class EMJviaTEXT(loader.Module):
-	"""Этот модуль создан чтобы не рыскать миллиарды стикерпаков. \n Пример использования:\n Привет BloodTrail"""
+	"""[ONLY FOR TG PREMIUM]\n Этот модуль создан чтобы не рыскать миллиарды стикерпаков. \n Пример использования:\n Привет BloodTrail"""
 	strings = {'name': 'EMJviaTEXT'}
 	
 	@loader.watcher(out=True)
