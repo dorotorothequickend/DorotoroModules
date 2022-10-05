@@ -185,11 +185,11 @@ class EMJviaTEXT(loader.Module):
 		"- включить/выключить автозамену текста на эмодзи."
 		if self.get('emjviatext') == True:
 			self.set('emjviatext', False)
-			await answer(message, "<b>EMJviaTEXT off. <emoji document_id=5289735335830365517>😎</emoji></b>")
+			await utils.answer(message, "<b>EMJviaTEXT off. <emoji document_id=5289735335830365517>😎</emoji></b>")
 			return
 		elif self.get('emjviatext') == False or self.get('emjviatext') is None:
 			self.set('emjviatext', True)
-			await answer(message, "<b>EMJviaTEXT on. <emoji document_id=5271812579038075619>😎</emoji></b>")
+			await utils.answer(message, "<b>EMJviaTEXT on. <emoji document_id=5271812579038075619>😎</emoji></b>")
 
 	@loader.command()
 	async def emjlist(self, m):
