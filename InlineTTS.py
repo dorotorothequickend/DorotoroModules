@@ -51,4 +51,4 @@ class InlineTTS(loader.Module):
 	@loader.command()
 	async def silerovoices(self,m):
 		"- всевозможные голоса для синтеза (Обычные голоса Silero)"
-		await m.edit("👾 Silero Voices:\n <code> aidar </code> | <code> baya </code> | <code> kseniya </code> | <code> xenia </code> | <code> eugene </code>")e>")
+		await m.edit("👾 Silero Voices:\n <code> aidar </code> | <code> baya </code> | <code> kseniya </code> | <code> xenia </code> | <code> eugene </code>")
