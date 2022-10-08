@@ -8,3 +8,4 @@ DoYouKnowAlphabet
 AccountDeleter
 RandomJumoreska
 EMJviaTEXT
+AutoEdit
