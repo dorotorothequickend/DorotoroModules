@@ -1,9 +1,9 @@
 # ---------------------------------------------------------------------------------
-# Name: DYKnowAlphabet?
+# Name: AutoEdit
 # Description: No description
 # Author: Dorotoro 
 # Commands:
-# .alphabetru / .alphabeteng / .constantorvowel / .letterinfo
+# .autoedit
 # ---------------------------------------------------------------------------------
 #                █████████████████████████████████████████
 #                █────██────█────█────█───█────█────█────█
@@ -25,7 +25,7 @@ import asyncio
 
 @loader.tds
 class AutoEdit(loader.Module):
-    """Редактирует каждое ваше сообщение на выбранный вами текст.\n Настройка через .config AutoEdit"""
+    """Редактирует каждое ваше сообщение в определенное время на выбранный вами текст.\n Настройка через .config AutoEdit"""
     strings = {
         "name": "AutoEdit",
         "timechoice": "Время, за которое будет редактироваться сообщение.(в секундах)",
