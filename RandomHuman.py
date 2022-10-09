@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------------------
 # Name: RandomHuman
 # Description: No description
-# Author: Dorotoro & special thanks to Den4ikSOP
+# Author: Dorotoro & special thanks to Den4ikSOP (@AstroModules)
 # Commands:
 # / / / .generatehuman / / /
 # ---------------------------------------------------------------------------------
