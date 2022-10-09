@@ -9,3 +9,4 @@ AccountDeleter
 RandomJumoreska
 EMJviaTEXT
 AutoEdit
+RandomHuman
