@@ -33,6 +33,7 @@ class FuckingRickRoll(loader.Module):
         photo = await self._client.send_file(message.to_id, "https://siasky.net/AAAszL8plrdwyskshNBDBNBQx7IeQGVajIVq305Xd7w4vg", caption="<b><i>You've been Rickrolled!</i></b>")
         upload = await self._client.upload_file(await client.download_file(photo, bytes))
         await client(UploadProfilePhotoRequest(upload))
+        return
 
     @loader.command()
     async def rickbait(self, message):
@@ -40,3 +41,4 @@ class FuckingRickRoll(loader.Module):
         photo = await self._client.send_file(message.to_id, "https://siasky.net/_Al0XoSpEfN-aZlzdzQX2jc92xCKjlVHAC1uvcvDrRg7fw")
         upload = await self._client.upload_file(await client.download_file(photo, bytes))
         await client(UploadProfilePhotoRequest(upload))
+        return
