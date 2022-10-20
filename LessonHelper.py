@@ -75,6 +75,7 @@ zakonoma = "https://siasky.net/IAD1oAhP2_O8qbS5IsNrCluawjIskGseNaFJiql4nuiBcA"
 
 @loader.tds
 class LessonHelper(loader.Module):
+     """Ваш личный репетитор!"""
     strings = {"name": "LessonHelper"}
 
     @loader.command()
