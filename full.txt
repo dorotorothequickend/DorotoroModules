@@ -13,3 +13,4 @@ RandomHuman
 WhataWord?
 FkinRickRoll
 LessonHelper
+SimpleMe
