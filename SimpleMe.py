@@ -18,7 +18,7 @@ from .. import loader, utils
 @loader.tds
 class SimpleMinecraftMe(loader.Module):
     strings = {
-        "name": "/me",
+        "name": "SimpleMe",
         "symbol": "Символ который используется в конце и в начале сообщения. (например, звезда)"
         }
 
