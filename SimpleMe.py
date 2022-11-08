@@ -17,6 +17,7 @@ from .. import loader, utils
 
 @loader.tds
 class SimpleMinecraftMe(loader.Module):
+    """Сообщает об исполнителе команды от третьего лица."""
     strings = {
         "name": "SimpleMe",
         "symbol": "Символ который используется в конце и в начале сообщения. (например, звезда)"
