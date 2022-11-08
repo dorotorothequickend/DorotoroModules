@@ -39,7 +39,7 @@ class SimpleMinecraftMe(loader.Module):
     async def me(self, message):
         "<действие> - сообщает об исполнителе команды от третьего лица. команда /me из игры Minecraft.\n\nПример использования: .me открыл браузер\nТакже есть доп. настройка в .config"
         args = utils.get_args_raw(message)
-        me = (await self.client.get_me())
+        me = self.client.hikka_me
         nickname = f'{me.first_name} {me.last_name if me.last_name else ""}'
         cfg = self.config["symbol"]
         if not args:
