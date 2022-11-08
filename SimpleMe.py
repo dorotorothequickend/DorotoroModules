@@ -19,7 +19,7 @@ from .. import loader, utils
 class SimpleMinecraftMe(loader.Module):
     """Сообщает об исполнителе команды от третьего лица."""
     strings = {
-        "name": "/me",
+        "name": "SimpleMe",
         "symbol": "Символ который используется в конце и в начале сообщения. (например, звезда)"
         }
 
