@@ -35,7 +35,7 @@ class tocodedecodemod(loader.Module):
 
     @loader.command()
     async def decode(self, message):
-        "<текст, который необходимо дешифровать> - дешифрует двоичный код."
+        "<код, который необходимо дешифровать> - дешифрует двоичный код."
         args = utils.get_args_raw(message)
         if not args:
             await utils.answer(message, "<emoji document_id=4985545282113503960>🖥</emoji> <b>Что декодировать то?</b>")
