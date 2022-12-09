@@ -18,8 +18,9 @@ import random
 
 @loader.tds
 class ExcuseGeneratorMod(loader.Module):
+    """Ваш персональный генератор отмазок."""
     strings = {
-        "name": "Генератор Отмазок"
+        "name": "ExcuseGenerator"
         }
 
     @loader.command()
