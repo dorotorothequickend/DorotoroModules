@@ -18,7 +18,6 @@ import random
 
 @loader.tds
 class ExcuseGeneratorMod(loader.Module):
-    """Придумает любую отмазку на любой случай жизни."""
     strings = {
         "name": "ExcuseGenerator",
         "courtesy": "Обращение к человеку на ТЫ (0), обращение к человеку на ВЫ (1).",
@@ -53,6 +52,10 @@ class ExcuseGeneratorMod(loader.Module):
         "привет","здравствуй","приветствую","добрый день","добрый вечер",
         "доброе утро","саламули гамаджоба", "хорошего дня",
         "салам алейкум", "hello", "здарова", "алоха"
+        ]
+        hellovi = [
+        "здравствуйте","здравствуй","добрый день","добрый вечер",
+        "доброе утро","хорошего дня", "хорошего вечера", "доброго времяпрепровождения"
         ]
         fail = [
         "Самолет, в котором я летел, приземлился на запаснике в Новгороде",
@@ -126,6 +129,8 @@ class ExcuseGeneratorMod(loader.Module):
             args = random.choice(nameowoman)
         if not args and self.config["courtesy"] == 1:
             args = "Уважаемый начальник"
+        if self.config["courtesy"] == 1:
+            rnh = random.choice(hellovi)
         if not args:
             args = random.choice(nameo)
         if self.config["mysex"] == 1:
