@@ -1,11 +1,3 @@
-
-# ---------------------------------------------------------------------------------
-# Name: GloryTo
-# Description: Этот модуль - причина всех военных конфликтов!
-# Author: Dorotoro (@km90h)
-# Commands:
-# .gtr | .gtu | .gtserb | .gtchina | .gtusa | .gtazer | .gttaiwan | .gtlnr | .gtdnr | .gtrusemp | .gtussr
-# ---------------------------------------------------------------------------------
 #                █████████████████████████████████████████
 #                █────██────█────█────█───█────█────█────█
 #                █─██──█─██─█─██─█─██─██─██─██─█─██─█─██─█
@@ -23,13 +15,14 @@
 #
 #                           Human-friendly one:
 #            https://creativecommons.org/licenses/by-nc-nd/4.0
-# meta developer: Dorotoro
+# meta developer: @DorotoroMods
 
 import re
 from .. import loader, utils
 
 @loader.tds
 class GloryTo(loader.Module):
+	"""Автор этого модуля не поддерживает никакие военные конфликты и желает мира во всем мире."""
 	strings = {"name": "GloryTo"}
 	
 	@loader.command()
