@@ -18,6 +18,7 @@ import random
 
 @loader.tds
 class ExcuseGeneratorMod(loader.Module):
+    """Придумает любую отмазку на любой случай жизни."""
     strings = {
         "name": "ExcuseGenerator",
         "courtesy": "Обращение к человеку на ТЫ (0), обращение к человеку на ВЫ (1).",
