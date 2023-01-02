@@ -18,6 +18,9 @@ import random
 
 @loader.tds
 class ExcuseGeneratorMod(loader.Module):
+    """
+    Ваш преданный помощник!
+    """
     strings = {
         "name": "ExcuseGenerator",
         "courtesy": "Обращение к человеку на ТЫ (0), обращение к человеку на ВЫ (1).",
