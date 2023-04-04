@@ -10,7 +10,7 @@
 #                     Copyright 2022 t.me/km90h
 #             https://www.gnu.org/licenses/agpl-3.0.html
 #
-# meta banner: https://0x0.st/ol7n.gif.mp4
+# meta banner: https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroPasswordGenerator.png
 # meta developer: @DorotoroMods
 
 from .. import utils, loader
