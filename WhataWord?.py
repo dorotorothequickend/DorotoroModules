@@ -11,7 +11,7 @@
 #             https://www.gnu.org/licenses/agpl-3.0.html
 #
 # ---------------------------------------------------------------------------------
-#
+# meta banner: https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroWhataWord.png
 # meta developer: @DorotoroMods
 
 from .. import utils, loader
