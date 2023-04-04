@@ -10,9 +10,8 @@
 #                     Copyright 2022 t.me/km90h
 #             https://www.gnu.org/licenses/agpl-3.0.html
 #
-#
+# meta banner: https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/Dorotoro01code.png
 # meta developer: @DorotoroMods
-# meta banner: https://0x0.st/o6qP.gif.mp4
 
 from ..  import loader, utils
 # https://clck.ru/32dhcu (StackOverflow)
