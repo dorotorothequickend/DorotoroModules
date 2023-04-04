@@ -10,7 +10,7 @@
 #                     Copyright 2022 t.me/km90h
 #             https://www.gnu.org/licenses/agpl-3.0.html
 #
-#
+# meta banner: https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroDota2RandomHero.png
 # meta developer: @DorotoroMods
 
 import random
@@ -41,6 +41,7 @@ hero1 = [
     "Magnus",
     "Marci",
     "Mars",
+    "Muerta",
     "Night Stalker",
     "Omniknight",
     "Phoenix",
@@ -115,8 +116,7 @@ hero1 = [
     "Lich",
     "Lina",
     "Lion",
-    "Natures",
-    "Prophet",
+    "Nature's Prophet",
     "Necrophos",
     "Puck",
     "Pugna",
@@ -162,6 +162,7 @@ hero2 = [
     "Magnus",
     "Marci",
     "Mars",
+    "Muerta",
     "Night Stalker",
     "Omniknight",
     "Phoenix",
@@ -236,8 +237,7 @@ hero2 = [
     "Lich",
     "Lina",
     "Lion",
-    "Natures",
-    "Prophet",
+    "Nature's Prophet",
     "Necrophos",
     "Puck",
     "Pugna",
@@ -283,6 +283,7 @@ hero3 = [
     "Magnus",
     "Marci",
     "Mars",
+    "Muerta",
     "Night Stalker",
     "Omniknight",
     "Phoenix",
@@ -357,8 +358,7 @@ hero3 = [
     "Lich",
     "Lina",
     "Lion",
-    "Natures",
-    "Prophet",
+    "Nature's Prophet",
     "Necrophos",
     "Puck",
     "Pugna",
@@ -404,6 +404,7 @@ hero4 = [
     "Magnus",
     "Marci",
     "Mars",
+    "Muerta",
     "Night Stalker",
     "Omniknight",
     "Phoenix",
@@ -478,8 +479,7 @@ hero4 = [
     "Lich",
     "Lina",
     "Lion",
-    "Natures",
-    "Prophet",
+    "Nature's Prophet",
     "Necrophos",
     "Puck",
     "Pugna",
@@ -525,6 +525,7 @@ hero5 = [
     "Magnus",
     "Marci",
     "Mars",
+    "Muerta",
     "Night Stalker",
     "Omniknight",
     "Phoenix",
@@ -599,8 +600,7 @@ hero5 = [
     "Lich",
     "Lina",
     "Lion",
-    "Natures",
-    "Prophet",
+    "Nature's Prophet",
     "Necrophos",
     "Puck",
     "Pugna",
@@ -630,6 +630,7 @@ build = [
     "with 6 boots",
     "with 6 Blinks",
     "without items",
+    "with Fluffy Hat"
 ]
 randombuild = random.choice(build)
 
