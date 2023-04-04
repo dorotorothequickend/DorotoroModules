@@ -258,7 +258,7 @@ class InlineTTS(loader.Module):
         )
 
     @loader.command()
-    async def fallv(self, message):
+    async def heartv(self, message):
         "- список голосов для синтеза (Hearthstone)"
         await utils.answer(
             message, (
