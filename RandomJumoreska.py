@@ -10,7 +10,7 @@
 #                     Copyright 2022 t.me/km90h
 #             https://www.gnu.org/licenses/agpl-3.0.html
 #
-#
+# meta banner: https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroRandomJumoreska.png
 # meta developer: @DorotoroMods
 
 from .. import loader, utils
