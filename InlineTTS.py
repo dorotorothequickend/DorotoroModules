@@ -19,7 +19,7 @@ from .. import loader, utils
 
 @loader.tds
 class InlineTTS(loader.Module):
-    """Синтезирует текст в голос ваших любимых героев! Перед началом работы с модулем необходимо подписаться на канал @silero_voice_news, иначе модуль работать не будет. Английские символы не поддерживаются. Советы: Аббревиатуры необходимо писать вот так - ЭСЭСЭСЭР, а ударение нужно ставить так - удар+ение"""
+    """Синтезирует текст в голос ваших любимых героев!Пример использования: .atts arthas Привет"""
 
     strings = {"name": "InlineTTS"}
 
@@ -43,7 +43,7 @@ class InlineTTS(loader.Module):
             r = await conv.get_response()
         if not r.media:
             await my_msg.delete()
-            return await utils.answer(message, "<b>Пожалуйста, выполните действие в личке с ботом, а после используйте команду</b> <code>.atts</code>")
+            return await utils.answer(message, "<b>Пожалуйста, выполните действие в личке с @silero_voice_bot, а после используйте команду</b> <code>.atts</code>")
         await message.respond(file=r, reply_to=reply.id if reply else None)
         if message.out:
             await message.delete()
