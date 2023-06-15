@@ -7,7 +7,7 @@
 #                █████████████████████████████████████████
 #
 #
-#                     Copyright 2022 t.me/km90h
+#                     Copyright 2022 t.me/Dorotoro
 #             https://www.gnu.org/licenses/agpl-3.0.html
 #
 # meta banner: https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroEMJviaTEXT.png
