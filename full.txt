@@ -13,7 +13,7 @@ RandomHuman
 WhataWord?
 FkinRickRoll
 LessonHelper
-Simple RolePlay
+SimpleRolePlay
 01code
 PasswordGenerator
 ExcuseGenerator
