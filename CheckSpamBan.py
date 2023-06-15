@@ -13,7 +13,7 @@
 #  /_/    \_\___/\__|_|  \___/|_|  |_|\___/ \__,_|\__,_|_|\___||___/     
 #
 #
-#                     Copyright 2022 t.me/km90h
+#                     Copyright 2022 t.me/Dorotoro
 #             https://www.gnu.org/licenses/agpl-3.0.html            
 # meta banner: https://raw.githubusercontent.com/dorotorothequickend/DorotoroModules/main/banners/DorotoroCheckSpamBan.png
 # meta developer: @DorotoroMods & @AstroModules
