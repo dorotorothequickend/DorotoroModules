@@ -38,7 +38,7 @@ class SimpleRolePlay(loader.Module):
 
     @loader.command()
     async def me(self, message):
-        "<действие> - сообщает об исполнителе команды от третьего лица. Пример использования: .me открыл браузер. Также есть доп. настройка в .config"
+        "<действие> - сообщает об исполнителе команды от первого лица. Пример использования: .me открыл браузер. Также есть доп. настройка в .config"
         args = utils.get_args_raw(message)
         if not args:
             return await utils.answer(message, self.strings("not_args"))
